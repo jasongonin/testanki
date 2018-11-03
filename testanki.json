@@ -178,7 +178,7 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [], 
-    "name": "A0", 
+    "name": "testanki", 
     "note_models": [
         {
             "__type__": "NoteModel", 
