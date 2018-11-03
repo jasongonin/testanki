@@ -1,2 +1,2 @@
 # testanki
-this is just a test for my fellow workers to access some knowledge
+this is just a test for my fellow workers to access some knowledge in my arquitectural specialities
