@@ -1,0 +1,294 @@
+{
+    "__type__": "Deck", 
+    "children": [
+        {
+            "__type__": "Deck", 
+            "children": [], 
+            "crowdanki_uuid": "f6216dc4-df4a-11e8-a043-0028f8747808", 
+            "deck_config_uuid": "f6216dc1-df4a-11e8-ad15-0028f8747808", 
+            "desc": "", 
+            "dyn": 0, 
+            "extendNew": 10, 
+            "extendRev": 50, 
+            "media_files": [], 
+            "name": "A0U4", 
+            "notes": [
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "A0U4-01", 
+                        "¿Que es<div>el modo mas adecuado para propagar información de login hacia un sistema externo de monitoring&nbsp;</div><div>?</div><div>&nbsp;</div>", 
+                        "usando token temporales con diccionario token-tiempo para los usuarios (equivalente a una session pero en ambito SSO)", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "fWyOD0r{,1", 
+                    "note_model_uuid": "f62194d2-df4a-11e8-b7d8-0028f8747808", 
+                    "tags": [
+                        "securidad"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "__type__": "Deck", 
+            "children": [], 
+            "crowdanki_uuid": "27bf748a-df4b-11e8-8945-0028f8747808", 
+            "deck_config_uuid": "f6216dc1-df4a-11e8-ad15-0028f8747808", 
+            "desc": "", 
+            "dyn": 0, 
+            "extendNew": 10, 
+            "extendRev": 50, 
+            "media_files": [], 
+            "name": "A0U1", 
+            "notes": [
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "A0U2-01", 
+                        "¿Que es&nbsp;<div>El DesignPattern mas facile de utilizar cuando existe possibilidad de que cambiara la API de destino regularmente</div><div>?</div>", 
+                        "Strategy", 
+                        "", 
+                        "3", 
+                        "3", 
+                        "3", 
+                        "3"
+                    ], 
+                    "flags": 0, 
+                    "guid": "QIo+o;$oYY", 
+                    "note_model_uuid": "f62194d2-df4a-11e8-b7d8-0028f8747808", 
+                    "tags": [
+                        "DesignPattern"
+                    ]
+                }, 
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "A0U1-01", 
+                        "¿En que&nbsp;<div>situacion se requiere obligatoriamente realizar una escalabilidad vertical</div><div>?&nbsp;</div>", 
+                        "En situaciones en las cuales la seguridad es muy tributaria de que los procesos sean estanques", 
+                        "", 
+                        "3", 
+                        "3", 
+                        "3", 
+                        "3"
+                    ], 
+                    "flags": 0, 
+                    "guid": "j0K*dl&R0|", 
+                    "note_model_uuid": "f62194d2-df4a-11e8-b7d8-0028f8747808", 
+                    "tags": [
+                        "escalabilidad", 
+                        "securidad"
+                    ]
+                }
+            ]
+        }, 
+        {
+            "__type__": "Deck", 
+            "children": [], 
+            "crowdanki_uuid": "f62194d5-df4a-11e8-a471-0028f8747808", 
+            "deck_config_uuid": "f6216dc1-df4a-11e8-ad15-0028f8747808", 
+            "desc": "", 
+            "dyn": 0, 
+            "extendNew": 10, 
+            "extendRev": 50, 
+            "media_files": [], 
+            "name": "A0U3", 
+            "notes": [
+                {
+                    "__type__": "Note", 
+                    "data": "", 
+                    "fields": [
+                        "A0-U3", 
+                        "Que es&nbsp;<div>el DesignPattern mas adecuado para tratamiento de work item muy limitados (event, signal)</div>", 
+                        "mosquito / mouche / fly", 
+                        "", 
+                        "", 
+                        "", 
+                        "", 
+                        ""
+                    ], 
+                    "flags": 0, 
+                    "guid": "l%nh!!4<p/", 
+                    "note_model_uuid": "f62194d2-df4a-11e8-b7d8-0028f8747808", 
+                    "tags": [
+                        "DesignPattern"
+                    ]
+                }
+            ]
+        }
+    ], 
+    "crowdanki_uuid": "f6216dc0-df4a-11e8-b5d9-0028f8747808", 
+    "deck_config_uuid": "f6216dc1-df4a-11e8-ad15-0028f8747808", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "f6216dc1-df4a-11e8-ad15-0028f8747808", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": false, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 200
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "name": "A0", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "f62194d2-df4a-11e8-b7d8-0028f8747808", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Ref", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Anverso", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Reverso", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Mnemotecnia", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "CC.Justesa", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 9, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "CC.Pertinencia", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 9, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "CC.Utilidad", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 9, 
+                    "sticky": true
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "CC.Motivación", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 9, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "testanki", 
+            "req": [
+                [
+                    0, 
+                    "any", 
+                    [
+                        0, 
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "securidad"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Reverso}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Tarjeta 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Ref}}\n{{Anverso}}\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": []
+}
